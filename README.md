@@ -1,5 +1,9 @@
 # json4lua
-JSON and JSONRPC for Lua
+JSON and JSONRPC for Lua modified by Sheen@relayr
+
+Due to the packet loss in the wireless systems, we often have impaired json messages.
+
+Now we modified all the error notifications to return json.null.
 
 # Installation #
 ```
